@@ -1,0 +1,19 @@
+.card{
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    object-fit: cover;
+    margin: 8px;
+    border-radius: 20px ;
+    box-shadow: 21px 4px 8px aquamarine;
+    overflow: hidden;
+    text-align: center;
+    transition: 2s;
+}
+.desc{
+    padding: 0 2px 0 2px ;
+}
+.card:hover {
+    box-shadow: 0 8px 1px goldenrod;
+}
